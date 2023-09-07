@@ -1,0 +1,396 @@
+*{
+    margin-top: 0px;
+    margin: 0px;
+}
+.head{
+    height: 70px;
+    width: 100%;
+    display: flex;
+}
+.headleft{
+    height: 70px;
+    width: 17%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.head .headleft i{
+    padding-left: 10%;
+font-size: 25px;
+    cursor: pointer;
+    display: inline-block;
+}
+.head .headleft h1{
+font-size: 22px;
+padding-left: 3px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+cursor: pointer;
+}
+.headorta{
+    height: 70px;
+    width: 50%;
+    margin-left: 8%;
+    align-items: center;
+    display: flex;
+}
+.yaziliaxtaris{
+    border: 1px solid grey;
+    height: 35px;
+    width: 80%;
+    border-radius: 20px;
+    font-size: 17px;
+    outline: none;
+}
+.ses{
+    height: 45px;
+    width: 8%;
+    background-color: rgb(245, 240, 240);
+    border-radius: 45px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 20px;
+    margin-left: 3%;
+    outline: none;
+    cursor: pointer;
+}
+.ses:hover{
+    background-color: rgb(209, 203, 203);
+}
+.headright{
+    height: 70px;
+    width:33% ;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    
+}
+.z{
+    height: 40px;
+    width: 10%;
+   background-color: red;
+    border-radius: 40px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 12px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+    margin-right: 35px;
+    cursor: pointer;
+    
+}
+.headright i{
+    padding: 21px;
+    font-size: 17px;
+    cursor: pointer;
+}
+.headright i:hover{
+    background-color: rgb(167, 163, 162);
+}
+.content{
+    width: 100%;
+    height: 650px;
+    display: flex;
+    margin-top: 10px;
+}
+.orta{
+    width: 19%;
+    height:600px;
+    display: inline-block;
+}
+.ev{
+    height: 40px;
+    width: 100%;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.ev i{
+    margin-left: 20px;
+}
+.ev p{
+    margin-left: 30px;
+
+}
+.shorts{
+    height: 40px;
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.shorts i{
+    margin-left: 20px;
+    font-size: 20px;
+}
+.shorts p{
+    margin-left: 30px;
+
+}
+.shorts:hover{
+    background-color: #f2f2f2;
+}
+.xett{
+    height: 2px;
+    width: 95%;
+    background-color: #f2f2f2;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.abunəliklər {
+    margin-left: 20px;
+    font-size:19px;
+}
+.shorts img{
+    height: 26px;
+    width: 26px;
+    margin-left: 20px;
+    margin-top: 8pxpx;
+    border-radius: 26px;
+}
+.videolar{
+    height:600px;
+    width:77% ;
+    display: inline-block;
+    margin-left: 45px;
+}
+.topvideo{
+    height: 40px;
+    width: 100%;
+    display: flex;
+}
+.hamısı{
+    height: 30px;
+    width: 7%;
+    border: 1px solid white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 6px;
+    background-color: black;
+    color: white;
+}
+.Oyunlar{
+    height: 30px;
+    width: 7%;
+    border: 1px solid white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 6px;
+    background-color: #f2f2f2;
+    color: black;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.Oyunlar:hover{
+    background-color: #c9c5c5;
+}
+.musiqi{
+    height: 30px;
+    width: 7%;
+    border: 1px solid white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 6px;
+    background-color: #f2f2f2;
+    color: black;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.musiqi:hover{
+    background-color: #c9c5c5;
+}
+.miksler{
+    height: 30px;
+    width: 7%;
+    border: 1px solid white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 6px;
+    background-color: #f2f2f2;
+    color: black;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.miksler:hover{
+    background-color: #c9c5c5;
+}
+.canli{
+    height: 30px;
+    width: 7%;
+    border: 1px solid white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 6px;
+    background-color: #f2f2f2;
+    color: black;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.canli:hover{
+    background-color: #c9c5c5;
+}
+.ekşn{
+    height: 30px;
+    width: 17%;
+    border: 1px solid white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 6px;
+    background-color: #f2f2f2;
+    color: black;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.ekşn:hover{
+    background-color: #c9c5c5;
+}
+.futbol{
+    height: 30px;
+    width: 7%;
+    border: 1px solid white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 6px;
+    background-color: #f2f2f2;
+    color: black;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.futbol:hover{
+    background-color: #c9c5c5;
+}
+.idman{
+    height: 30px;
+    width: 17%;
+    border: 1px solid white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 6px;
+    background-color: #f2f2f2;
+    color: black;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.idman:hover{
+    background-color: #c9c5c5;
+}
+.ənson{
+    height: 30px;
+    width: 14%;
+    border: 1px solid white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 6px;
+    background-color: #f2f2f2;
+    color: black;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.ənson:hover{
+    background-color: #c9c5c5;
+}
+.kanallar{
+height: 332px;
+width: 100%; 
+display: flex;
+}
+.fenerbahce{
+    height: 330px;
+    width: 32%;
+}
+.fenerbahce video{
+    border-radius: 17px;
+}
+.fenerbahce img{
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    margin-top: 10px;
+    display: inline-block;
+    cursor: pointer;
+}
+.videoname{
+    display: flex;
+}
+.videoname p{
+    padding-top: 2px;
+    padding-left: 10px;
+    font-family: "Roboto","Arial",sans-serif;
+    line-height: 28px;
+    font-weight: 500;
+    font-size: 20px;
+    cursor: pointer;
+}
+.channelname {
+    padding-left: 50px;
+    padding-top: 10px;
+    font-family: "Roboto","Arial",sans-serif;
+    font-size: 15px;
+    color: #746e6e;
+    cursor: pointer;
+}
+.baxışsayı {
+    padding-left: 50px;
+    padding-top: 5px;
+    font-family: "Roboto","Arial",sans-serif;
+    font-size: 15px;
+    color: #746e6e;
+}
+.fenerbahce1{
+    height: 330px;
+    width: 32%;
+    margin-left: 15px;
+}
+.fenerbahce1 video{
+    border-radius: 17px;
+}
+.fenerbahce1 img{
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    margin-top: 10px;
+    display: inline-block;
+    cursor: pointer;
+}
+.videoname{
+    display: flex;
+}
+.videoname p{
+    padding-top: 2px;
+    padding-left: 10px;
+    font-family: "Roboto","Arial",sans-serif;
+    line-height: 28px;
+    font-weight: 500;
+    font-size: 20px;
+}
+.channelname {
+    padding-left: 50px;
+    padding-top: 10px;
+    font-family: "Roboto","Arial",sans-serif;
+    font-size: 15px;
+    color: #746e6e;
+}
+.baxışsayı {
+    padding-left: 50px;
+    padding-top: 5px;
+    font-family: "Roboto","Arial",sans-serif;
+    font-size: 15px;
+    color: #746e6e;
+}
+
+
